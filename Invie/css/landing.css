@@ -105,7 +105,7 @@ input:focus, textarea:focus{
 }
 
 .contenedor{
-    width: 850px;
+    width: 800px;
     margin: auto;
 }
 
@@ -234,4 +234,207 @@ table, td, th{
 
 .tabla{
     margin: 50px 0;
+}
+
+@media screen and (max-width: 950px){
+    
+    .col1{
+        margin-right: 30px;
+    }
+    
+    .col2{
+        margin: 0;
+    }
+    
+    .contacto{
+        margin-left: 10px;
+    }
+    
+    .formulario{
+        margin-right: 202px;
+    }
+}
+
+
+@media screen and (max-width: 800px){
+    
+    .contenedor{
+        width: auto;
+        max-width: 800px;
+    }
+    
+    .titulo{
+        font-size: 45px;
+        margin-top: 30px;
+    }
+    
+    .title-a{
+        font-size: 18px;
+    }
+    
+    .title-b{
+        margin-top: 0;
+    }
+    
+    .portada{
+        height: auto;
+    }
+    
+    .portada .button{
+        display: inline-block;
+        margin-bottom: 30px;
+    }
+    
+    
+    /*GUITARRAS*/
+    .guitarras{
+        text-align: center;
+    }
+    
+    .izquierda, .derecha{
+        float: none;
+        position: static;
+    }
+    
+    .izquierda{
+        width: 400px;
+    }
+    
+    /*GUITARRAS*/
+    
+    .col1{
+        margin-right: 0;
+    }
+    
+    .contenedor-guitarra-a{
+        padding: 0;
+    }
+    
+}
+
+@media screen and (max-width: 740px){
+    .footer .contenedor{
+        display: block;
+    }
+    
+    .contacto{
+        margin: 0 auto;
+    }
+    
+    .formulario {
+        display: block;
+        margin: 0 auto;
+        width: 300px;
+        padding: 0;
+    }
+    
+    .col1{
+        margin: 0;
+        padding: 0;
+    }
+    
+    .footer{
+        padding-bottom: 50px;
+    }
+    
+    .intereses label{
+        display: block;
+        font-size: 16px;
+    }
+    
+    input[type="text"],
+    input[type="email"]{
+        padding: 5px;
+        font-size: 16px;
+    }
+    
+    input[type="radio"],
+    input[type="checkbox"]{
+        zoom: 1.5;
+        margin-left: 0;
+    }
+    
+    textarea{
+        width: 100%;
+        font-size: 16px;
+    }
+    
+    .sexo{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 0;
+    }
+}
+
+
+@media screen and (max-width: 650px){
+    
+    .header{
+        text-align: center;
+    }
+    
+    .logotipo{
+        margin: 0;
+    }
+    
+    .menu{
+        position: static;
+        display: block;
+    }
+    
+    .menu li:first-child{
+        margin: 0;
+    }
+    
+    .menu ul{
+        padding: 0;
+    }
+    
+}
+
+@media screen and (max-width: 500px){
+    .portada{
+        text-align: center;
+    }
+    
+    .menu li{
+        display: block;
+        margin: 0;
+        padding: 8px 0;
+        border-bottom: 1px solid;
+    }
+    
+    .menu li:first-child{
+        border-top: 1px solid;
+    }
+    
+    .menu li:before{
+        display: none;
+    }
+    
+    .menu a{
+        font-size: 30px;
+    }
+    
+    .titulo{
+        font-size: 30px;
+        margin-bottom: 8px;
+    }
+    
+    .title-a{
+        font-size: 16px;
+    }
+    
+    .derecha{
+        width: 250px;
+    }
+    
+    .izquierda{
+        width: 300px;
+    }
+    
+    .title-b{
+        font-size: 35px;
+    }
+    
 }
